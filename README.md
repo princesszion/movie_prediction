@@ -22,7 +22,8 @@ To install the required packages, run the following command in your terminal:
 To run the application, open a terminal and navigate to the directory where you have cloned this repository. Then, run the following command:
 
 
-  'streamlit run app.py'
+  streamlit run app.py
+  
   This will launch the application in your default browser.
 
 ### Using the Application
