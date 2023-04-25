@@ -118,8 +118,8 @@ def user_input_features():
     facenumber_in_poster = st.sidebar.number_input('Number of actors featured in the movie in the movie poster',
                                                    value=0)
     budget = st.sidebar.number_input('Budget of the movie in Dollars', value=0)
-    content_rating = st.sidebar.number_input('Content rating pf the movie', value=0)
-    title_year = st.sidebar.number_input('The year in which the movie is released', value=0)
+    content_rating = st.sidebar.number_input('Content rating of the movie', value=0)
+    title_year = st.sidebar.number_input('The year in which the movie will be  released', value=0)
     actor_2_facebook_likes = st.sidebar.number_input('Actor 2 Facebook likes', value=0)
     aspect_ratio = st.sidebar.number_input('Aspect ratio the movie was made in', value=0)
     movie_facebook_likes = st.sidebar.number_input('Total number of facebook likes for the movie', value=0)
@@ -157,5 +157,5 @@ def user_input_features():
         st.write(features)
         st.write("<h3 style='color: skyblue;'>YOUR PREDICTION OUTPUT:</h3>", unsafe_allow_html=True)
 
-        st.write(f"**The predicted type of movie is:** {result[0]}")
+        st.write(f"**Your movie will be:** {result[0]}")
 df_user = user_input_features()
