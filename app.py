@@ -85,7 +85,7 @@ st.sidebar.header('FILL IN YOUR INFORMATION')
 
 # st.sidebar.write("""#### Choose your SG bias""")
 def user_input_features():
-    duration = st.sidebar.number_input('Duration of the movie', value=0)
+    duration = st.sidebar.number_input('Duration of the movie(in minutes)', value=0)
     director_facebook_likes = st.sidebar.number_input('Movie director Facebook likes', value=0)
     actor_3_facebook_likes = st.sidebar.number_input('Actor 3 Facebook likes', value=0)
     actor_1_facebook_likes = st.sidebar.number_input('Actor 1 Facebook likes', value=0)
