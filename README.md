@@ -7,21 +7,22 @@ This is a simple web application built using Streamlit for by shedding light on 
 ### Prerequisites
 To run this application, you will need:
 
-    Python 3.7 or later
-    pandas, numpy, scikit-learn, and streamlit Python packages
+    Python 3.7 or later, pandas, numpy, scikit-learn, and streamlit Python packages
     
 ### Installing
 To install the required packages, run the following command in your terminal:
 
     
-    '''pip install pandas numpy scikit-learn streamlit'''
+    pip install pandas numpy scikit-learn streamlit
+    
+    pip install -r requirements.txt
     
     
 ### Running the Application
 To run the application, open a terminal and navigate to the directory where you have cloned this repository. Then, run the following command:
 
 
-  '''streamlit run app.py'''
+  'streamlit run app.py'
   This will launch the application in your default browser.
 
 ### Using the Application
